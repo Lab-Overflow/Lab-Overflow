@@ -28,19 +28,58 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20Three.js%20%2B%20WebGL-61DAFB?style=flat-square&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Backend-FastAPI%20%2B%20Node.js-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%20Agent-GPT%20%2B%20MCP%20Tool%20Use-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/3D-Three.js%20%2B%20WebGL-000000?style=flat-square&logo=threedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Database-MySQL%20%2B%20Persistent%20Storage-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/React%2019-TypeScript-61DAFB?style=flat-square&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare-Pages%20%2B%20Workers%20%2B%20D1%20%2B%20KV-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%20Agent-4%20Modes%20%C2%B7%20Function%20Calling-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/i18n-English%20%2B%20%E4%B8%AD%E6%96%87-2196F3?style=flat-square&logo=googletranslate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Automation-LangGraph%20Trigger-1A1A2E?style=flat-square&logo=python&logoColor=white" />
 </p>
 
-A fullstack AI health platform built from scratch — independently designed, developed, and deployed.
+A fullstack AI health platform independently designed, developed, and deployed — from 0 to 1, solo delivery.
 
-- **AI Agent Integration** — Built-in AI assistant powered by LLM with MCP tool-use capabilities, enabling natural language interaction with platform features
-- **Web3D Interactive UI** — Three.js + WebGL rendering for immersive 3D visual experiences in the browser
-- **Full User System** — Email verification, account management, and community comment system with database persistence
-- **End-to-End Delivery** — From UI design, backend API, database architecture to production deployment — solo fullstack delivery
+**4 AI Agent Modes**
+- `Combination Agent` — Select ingredients + cooking action, AI estimates resulting dish & calories via structured JSON output
+- `Cooking Agent` — Autonomous agent: receives customer orders, plans cooking steps, executes 80+ tool-defined actions, manages real-time inventory
+- `Verification Agent` — Semantic matching between served dish and original order with confidence scoring
+- `Support Agent` — Context-aware Q&A for user guidance and methodology explanation
+
+**Platform Architecture**
+
+```mermaid
+flowchart TB
+    subgraph Frontend["Frontend Layer"]
+        A["Static Site\nHTML / CSS / JS\nCanvas Physics Animation"]
+        B["React 19 + TypeScript\nAgent Workspace\n4-Mode Orchestrator"]
+    end
+
+    subgraph Backend["Serverless Backend · Cloudflare Functions"]
+        C["Auth API\nEmail Verify / Google OAuth\nInvite-Code System"]
+        D["Chat Completions Proxy\nModel Locking / Pro Gating\nCost Control"]
+        E["Content API\nComments / FAQ Articles\nUser Profiles"]
+        F["Middleware\nLocale Routing / CORS\nSession Validation"]
+    end
+
+    subgraph Data["Data Layer"]
+        G["Cloudflare D1\nUsers / Articles / Profiles"]
+        H["Cloudflare KV\nSessions / Cache / Invites"]
+    end
+
+    subgraph Auto["Automation Layer · Python"]
+        I["LangGraph Trigger\nScheduled Article Ingestion\nMulti-Source Web Search"]
+    end
+
+    A <--> |iframe + postMessage| B
+    Frontend --> Backend --> Data
+    Auto --> E
+```
+
+**Key Technical Highlights**
+- **Serverless-Native** — Full stack on Cloudflare: Pages (hosting) + Functions (API) + D1 (relational DB) + KV (session/cache)
+- **AI Cost Control** — Backend-enforced model locking + Pro subscription gating, preventing client-side tampering
+- **Cross-Origin Agent Sync** — iframe + postMessage for seamless result sync between agent workspace and main calculator
+- **Canvas Physics Engine** — Custom 2D physics simulation (gravity, friction, pointer interaction) for interactive hero section
+- **Bilingual** — Intelligent locale detection: URL params > country headers > Accept-Language > cookies > fallback
+- **LangGraph Automation** — Scheduled pipeline: parallel web search (DuckDuckGo + Google + Tavily) > aggregate > auto-ingest into FAQ DB
 
 <p align="center">
   <a href="https://calculatorcaloriefree.com"><b>calculatorcaloriefree.com</b></a>
