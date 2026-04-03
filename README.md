@@ -2,12 +2,12 @@
 
 <!-- Trophy Wall -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Lab-Overflow&theme=darkhub&title=-Reviews" alt="Lab-Overflow's Trophies" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Lab-Overflow&theme=darkhub&title=-Reviews&v=2" alt="Lab-Overflow's Trophies" width="100%" />
 </p>
 
 <!-- Streak Stats -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lab-Overflow&theme=github-dark&hide_border=true" alt="GitHub Streak" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=Lab-Overflow&theme=github-dark&hide_border=true" alt="GitHub Streak" width="100%" />
 </p>
 
 <!-- GitHub Stats -->
@@ -22,7 +22,9 @@
 
 <!-- Tech Stack -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,pytorch,tensorflow,fastapi,react,html,css,threejs,nodejs,kafka,nginx,mysql,docker,git,github,githubactions,linux,cloudflare,vscode,md&perline=11" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=py,ts,js,pytorch,tensorflow,sklearn,fastapi,react,threejs,nodejs,kafka&perline=11" alt="Tech Stack Row 1" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=redis,nginx,mysql,docker,kubernetes,githubactions,linux,cloudflare,workers,vscode,grafana&perline=11" alt="Tech Stack Row 2" />
 </p>
 
 ## Top Projects
@@ -33,9 +35,14 @@
 
 ## Tech Focus
 
-```
-AI Agent & Multi-Agent    ██████████████████████████  Agentic Automation / LangChain / LangGraph / MCP
-RAG & Intelligent Query   ████████████████████████    Text2SQL / NL2SQL / Vector Retrieval / Hybrid Search
-AI Infra & Model Eng.     ██████████████████████      PyTorch / LoRA / SFT / DPO / DeepSpeed / Ollama
-Fullstack Engineering     ████████████████████        React / FastAPI / Node.js / Three.js / Docker
-```
+**AI Agent & Multi-Agent**
+`LangChain` `LangGraph` `Dify` `MCP Protocol` `ReAct` `Function Calling` `Prompt Engineering` `Context Engineering` `Agentic Automation` `Multi-Agent Orchestration`
+
+**RAG & Intelligent Query**
+`Text2SQL` `NL2SQL` `NL2Data` `Vector Retrieval` `Hybrid Retrieval` `Query Rewrite` `Knowledge Base` `ETL Pipeline` `Structured Output` `JSON Schema`
+
+**AI Infra & Model Engineering**
+`PyTorch` `Transformers` `LoRA` `QLoRA` `SFT` `DPO` `DeepSpeed` `Distributed Training` `Mixed Precision` `Gradient Checkpointing` `Ollama` `OpenAI Compatible API` `Model Serving`
+
+**Fullstack & DevOps**
+`React` `TypeScript` `FastAPI` `Node.js` `Three.js` `WebGL` `MySQL` `Docker` `Kafka` `Nginx` `CI/CD` `GitHub Actions`
