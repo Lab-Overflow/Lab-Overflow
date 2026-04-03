@@ -1,10 +1,5 @@
 ## Abstract
 
-<!-- Streak Stats -->
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Lab-Overflow&theme=github-dark&hide_border=true" alt="GitHub Streak" width="100%" />
-</p>
-
 <!-- Activity Graph -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lab-Overflow&theme=github-compact" width="100%" />
