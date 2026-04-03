@@ -27,6 +27,55 @@
   <img src="https://skillicons.dev/icons?i=redis,nginx,mysql,docker,kubernetes,githubactions,linux,cloudflare,workers,vscode,grafana&perline=11" alt="Tech Stack Row 2" />
 </p>
 
+---
+
+## AI Infra & Distributed Training
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Scale-1000%2B%20GPUs-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/DeepSpeed-ZeRO--3-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-Distributed-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Precision-BF16%2FFP16-9B59B6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Training-LoRA%20%2F%20SFT%20%2F%20DPO-E67E22?style=for-the-badge" />
+</p>
+
+```mermaid
+flowchart LR
+    subgraph Data["Data Pipeline"]
+        A["Raw Corpus\n(TB-scale)"] --> B["ETL & Cleaning\nDeduplication"]
+        B --> C["Tokenization\n& Sharding"]
+    end
+
+    subgraph Cluster["GPU Cluster · 1000+ Cards"]
+        D["Job Scheduler\nResource Allocation\nSlurm / K8s"]
+        E["DeepSpeed ZeRO-3\nPipeline & Tensor\nParallelism"]
+        F["Mixed Precision\nGradient Accumulation\nActivation Checkpointing"]
+        D --> E --> F
+    end
+
+    subgraph Strategy["Training Strategy"]
+        G["SFT\nSupervised\nFine-Tuning"]
+        H["LoRA / QLoRA\nParameter-Efficient\nFine-Tuning"]
+        I["DPO / RLHF\nAlignment\nOptimization"]
+        G --> H --> I
+    end
+
+    subgraph Serving["Model Serving"]
+        J["FastAPI\nOllama"]
+        K["OpenAI\nCompatible API"]
+        L["Monitoring\nGPU Util & Throughput"]
+        J --> K --> L
+    end
+
+    Data --> Cluster --> Strategy --> Serving
+```
+
+<p align="center">
+  <i>End-to-end LLM training pipeline: from TB-scale data preprocessing to distributed training across 1000+ GPU cluster, through alignment optimization, to production model serving.</i>
+</p>
+
+---
+
 ## Top Projects
 
 | Project | Description | Stars |
