@@ -74,12 +74,12 @@ flowchart TB
 ```
 
 **Key Technical Highlights**
-- **Serverless-Native** — Full stack on Cloudflare: Pages (hosting) + Functions (API) + D1 (relational DB) + KV (session/cache)
-- **AI Cost Control** — Backend-enforced model locking + Pro subscription gating, preventing client-side tampering
-- **Cross-Origin Agent Sync** — iframe + postMessage for seamless result sync between agent workspace and main calculator
-- **Canvas Physics Engine** — Custom 2D physics simulation (gravity, friction, pointer interaction) for interactive hero section
-- **Bilingual** — Intelligent locale detection: URL params > country headers > Accept-Language > cookies > fallback
-- **LangGraph Automation** — Scheduled pipeline: parallel web search (DuckDuckGo + Google + Tavily) > aggregate > auto-ingest into FAQ DB
+- **Serverless-Native Architecture** — Edge-deployed fullstack application with globally distributed low-latency access
+- **AI Agent Orchestration** — Multi-mode agent system with recursive function calling, structured output enforcement, and real-time state management
+- **Multi-Layer Auth & Access Control** — Email verification, OAuth integration, invite-code gating, and subscription-based feature access
+- **Canvas Physics Engine** — Custom real-time 2D physics simulation with pointer-tracking interaction
+- **Bilingual Intelligent Routing** — Automatic locale detection and content switching across the entire platform
+- **LangGraph Automation Pipeline** — Scheduled multi-source data aggregation with automated content ingestion
 
 <p align="center">
   <a href="https://calculatorcaloriefree.com"><b>calculatorcaloriefree.com</b></a>
