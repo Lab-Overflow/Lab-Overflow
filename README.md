@@ -133,7 +133,7 @@ flowchart LR
 
 | Project | Description | Stars |
 |:--|:--|:--|
-| [prompt-optimizer-lite](https://github.com/Lab-Overflow/prompt-optimizer-lite) | Lightweight prompt optimization toolkit | `262 ⭐` |
+| [prompt-optimizer-lite](https://github.com/Lab-Overflow/prompt-optimizer-lite) | Lightweight prompt optimization toolkit | [![GitHub Repo stars](https://img.shields.io/github/stars/Lab-Overflow/prompt-optimizer-lite?style=flat-square)](https://github.com/Lab-Overflow/prompt-optimizer-lite/stargazers) |
 
 ## Tech Focus
 
