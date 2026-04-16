@@ -1,8 +1,13 @@
 ## Abstract
 
-<!-- Activity Graph -->
+<!-- GitHub Insights -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lab-Overflow&theme=github-compact" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Lab-Overflow&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" width="49%" />
+  <img src="https://streak-stats.demolab.com?user=Lab-Overflow&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lab-Overflow&theme=github_dark" width="100%" />
 </p>
 
 <!-- Tech Stack -->
