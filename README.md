@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:111827&height=180&section=header&text=LAB-OVERFLOW%20%2F%2F%20SYSTEMS%20CONSOLE&font=JetBrains%20Mono&fontColor=c9d1d9&fontSize=24&desc=AI%20Agent%20Orchestration%20%C2%B7%20LLM%20Infra%20%C2%B7%20Fullstack%20Engineering&descAlignY=68&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:111827&height=200&section=header&text=LAB-OVERFLOW%20%2F%2F%20SYSTEMS%20CONSOLE&font=JetBrains%20Mono&fontColor=c9d1d9&fontSize=24&desc=%E4%BB%98%E5%AE%87%E6%B1%9F%0AAI%20Agent%20Orchestration%20%C2%B7%20LLM%20Infra%20%C2%B7%20Fullstack%20Engineering&descAlignY=64&descSize=15" width="100%" />
 </p>
 
 <!-- Tech Stack -->
