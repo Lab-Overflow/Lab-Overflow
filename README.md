@@ -1,8 +1,12 @@
 ## Abstract
 
-<!-- Minimal Activity Curve (No Numbers) -->
+<!-- Animated ASCII / Terminal Intro (No Activity Metrics) -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lab-Overflow&bg_color=0d1117&color=0d1117&line=3fb950&point=3fb950&area=true&area_color=2ea043&hide_border=true&hide_title=true&grid=false&days=31" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2200&pause=900&color=58A6FF&center=true&vCenter=true&width=980&lines=%24+boot+agentic-core+--env+production;%24+train+llm+--deepspeed+zero3+--gpus+1000%2B;%24+serve+openai-compatible-api+--p95%3C120ms;%24+deploy+fullstack+systems+from+0+to+1" alt="Terminal Typing Animation" />
+</p>
+
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:111827&height=180&section=header&text=LAB-OVERFLOW%20%2F%2F%20SYSTEMS%20CONSOLE&font=JetBrains%20Mono&fontColor=c9d1d9&fontSize=24&desc=AI%20Agent%20Orchestration%20%C2%B7%20LLM%20Infra%20%C2%B7%20Fullstack%20Engineering&descAlignY=68&descSize=16" width="100%" />
 </p>
 
 <!-- Tech Stack -->
