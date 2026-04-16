@@ -6,11 +6,7 @@
 </p>
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:111827&height=180&section=header&text=LAB-OVERFLOW%20%2F%2F%20SYSTEMS%20CONSOLE&font=JetBrains%20Mono&fontColor=c9d1d9&fontSize=24" width="100%" />
-</p>
-
-<p align="center">
-  <strong><mark>付宇江</mark></strong> - AI Agent Orchestration · LLM Infra · Fullstack Engineering
+<img src="assets/systems-console-card.svg" width="100%" alt="LAB-OVERFLOW systems console" />
 </p>
 
 <!-- Tech Stack -->
