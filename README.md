@@ -90,7 +90,7 @@ flowchart TB
 
 <p align="center">
   <img src="https://img.shields.io/badge/Dedicated-8x%20H200-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kilo--GPU-Training%20Participant-2E86C1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Kilo--GPU-1000%2B%20Cards%20Participant-2E86C1?style=for-the-badge" />
   <img src="https://img.shields.io/badge/DeepSpeed-ZeRO--3-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-Distributed-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/vLLM-OpenAI%20Compatible-00A67E?style=for-the-badge" />
