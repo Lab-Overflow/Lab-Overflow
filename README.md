@@ -2,7 +2,7 @@
 
 <!-- Animated ASCII / Terminal Intro (No Activity Metrics) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2200&pause=900&color=58A6FF&center=true&vCenter=true&width=980&lines=%24+boot+agentic-core+--env+production;%24+train+llm+--deepspeed+zero3+--gpus+1000%2B;%24+serve+openai-compatible-api+--p95%3C120ms;%24+deploy+fullstack+systems+from+0+to+1" alt="Terminal Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2200&pause=900&color=58A6FF&center=true&vCenter=true&width=980&lines=%24+boot+agentic-core+--env+production;%24+train+llm+--h200x8+--scale-plan+kilo-gpu;%24+serve+vllm+--openai-compatible+--tensor-parallel;%24+deploy+fullstack+systems+from+0+to+1" alt="Terminal Typing Animation" />
 </p>
 
 <p align="center">
@@ -89,46 +89,48 @@ flowchart TB
 ## AI Infra & Distributed Training
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Scale-1000%2B%20GPUs-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hands--on-8x%20H200-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kilo--GPU-Scaling%20Strategy-2E86C1?style=for-the-badge" />
   <img src="https://img.shields.io/badge/DeepSpeed-ZeRO--3-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-Distributed-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Precision-BF16%2FFP16-9B59B6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/vLLM-OpenAI%20Compatible-00A67E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Precision-BF16%2FFP8-9B59B6?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Training-LoRA%20%2F%20SFT%20%2F%20DPO-E67E22?style=for-the-badge" />
 </p>
 
 ```mermaid
 flowchart LR
-    subgraph Data["Data Pipeline"]
-        A["Raw Corpus\n(TB-scale)"] --> B["ETL & Cleaning\nDeduplication"]
-        B --> C["Tokenization\n& Sharding"]
+    subgraph Data["Data Plane"]
+        A["Raw Corpus\nTB-scale Sources"] --> B["Quality Filters\nDedup / PII Scrub"]
+        B --> C["Tokenizer + Packing\nSharded Streaming Dataset"]
     end
 
-    subgraph Cluster["GPU Cluster · 1000+ Cards"]
-        D["Job Scheduler\nResource Allocation\nSlurm / K8s"]
-        E["DeepSpeed ZeRO-3\nPipeline & Tensor\nParallelism"]
-        F["Mixed Precision\nGradient Accumulation\nActivation Checkpointing"]
+    subgraph Cluster["Cluster Control Plane"]
+        D["Slurm / K8s Queues\nTopology-Aware Placement"]
+        E["NCCL + RDMA\nHealth Checks / Straggler Detection"]
+        F["Checkpoint Store\nFault Recovery / Resume"]
         D --> E --> F
     end
 
-    subgraph Strategy["Training Strategy"]
-        G["SFT\nSupervised\nFine-Tuning"]
-        H["LoRA / QLoRA\nParameter-Efficient\nFine-Tuning"]
-        I["DPO / RLHF\nAlignment\nOptimization"]
+    subgraph Train["Training Strategy"]
+        G["3D Parallelism\nDP + TP + PP / CP"]
+        H["FSDP / ZeRO-3\nBF16 / FP8\nActivation Checkpointing"]
+        I["SFT / LoRA / DPO\nEval Gates + Model Registry"]
         G --> H --> I
     end
 
     subgraph Serving["Model Serving"]
-        J["FastAPI\nOllama"]
-        K["OpenAI\nCompatible API"]
-        L["Monitoring\nGPU Util & Throughput"]
+        J["vLLM Distributed Serving\nTensor Parallel + KV Cache"]
+        K["FastAPI Gateway\nAuth / Rate Limit / Routing"]
+        L["OpenAI-Compatible API\nMetrics / Canary / Autoscale"]
         J --> K --> L
     end
 
-    Data --> Cluster --> Strategy --> Serving
+    Data --> Cluster --> Train --> Serving
 ```
 
 <p align="center">
-  <i>End-to-end LLM training pipeline: from TB-scale data preprocessing to distributed training across 1000+ GPU cluster, through alignment optimization, to production model serving.</i>
+  <i>Hands-on 8x H200 model engineering experience, framed as a production-grade scaling blueprint for larger GPU clusters: data quality, topology-aware scheduling, 3D parallel training, fault-tolerant checkpoints, and vLLM-based serving.</i>
 </p>
 
 ---
@@ -148,7 +150,7 @@ flowchart LR
 `Text2SQL` `NL2SQL` `NL2Data` `Vector Retrieval` `Hybrid Retrieval` `Query Rewrite` `Knowledge Base` `ETL Pipeline` `Structured Output` `JSON Schema`
 
 **AI Infra & Model Engineering**
-`PyTorch` `Transformers` `LoRA` `QLoRA` `SFT` `DPO` `DeepSpeed` `Distributed Training` `Mixed Precision` `Gradient Checkpointing` `Ollama` `OpenAI Compatible API` `Model Serving`
+`PyTorch` `Transformers` `LoRA` `QLoRA` `SFT` `DPO` `DeepSpeed` `FSDP` `Distributed Training` `Mixed Precision` `Gradient Checkpointing` `vLLM` `OpenAI Compatible API` `Model Serving`
 
 **Fullstack & DevOps**
 `React` `TypeScript` `FastAPI` `Node.js` `Three.js` `WebGL` `MySQL` `Docker` `Kafka` `Nginx` `CI/CD` `GitHub Actions`
