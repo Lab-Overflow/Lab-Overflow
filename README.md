@@ -2,7 +2,7 @@
 
 <!-- Animated ASCII / Terminal Intro (No Activity Metrics) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2200&pause=900&color=58A6FF&center=true&vCenter=true&width=980&lines=%24+boot+agentic-core+--env+production;%24+train+llm+--h200x8+--scale-plan+kilo-gpu;%24+serve+vllm+--openai-compatible+--tensor-parallel;%24+deploy+fullstack+systems+from+0+to+1" alt="Terminal Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2200&pause=900&color=58A6FF&center=true&vCenter=true&width=980&lines=%24+boot+agentic-core+--env+production;%24+train+llm+--dedicated-h200x8+--kilo-gpu-participant;%24+serve+vllm+--openai-compatible+--tensor-parallel;%24+deploy+fullstack+systems+from+0+to+1" alt="Terminal Typing Animation" />
 </p>
 
 <p align="center">
@@ -89,8 +89,8 @@ flowchart TB
 ## AI Infra & Distributed Training
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Hands--on-8x%20H200-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kilo--GPU-Scaling%20Strategy-2E86C1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dedicated-8x%20H200-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kilo--GPU-Training%20Participant-2E86C1?style=for-the-badge" />
   <img src="https://img.shields.io/badge/DeepSpeed-ZeRO--3-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-Distributed-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/vLLM-OpenAI%20Compatible-00A67E?style=for-the-badge" />
@@ -105,7 +105,7 @@ flowchart LR
         B --> C["Tokenizer + Packing\nSharded Streaming Dataset"]
     end
 
-    subgraph Cluster["Cluster Control Plane"]
+    subgraph Cluster["Cluster Control Plane · Dedicated 8x H200 + Kilo-GPU Sessions"]
         D["Slurm / K8s Queues\nTopology-Aware Placement"]
         E["NCCL + RDMA\nHealth Checks / Straggler Detection"]
         F["Checkpoint Store\nFault Recovery / Resume"]
@@ -130,7 +130,7 @@ flowchart LR
 ```
 
 <p align="center">
-  <i>Hands-on 8x H200 model engineering experience, framed as a production-grade scaling blueprint for larger GPU clusters: data quality, topology-aware scheduling, 3D parallel training, fault-tolerant checkpoints, and vLLM-based serving.</i>
+  <i>Dedicated access to an 8x H200 cluster for model engineering, with recurring participation in kilo-GPU training sessions: data quality, topology-aware scheduling, 3D parallel training, fault-tolerant checkpoints, and vLLM-based serving.</i>
 </p>
 
 ---
@@ -150,7 +150,7 @@ flowchart LR
 `Text2SQL` `NL2SQL` `NL2Data` `Vector Retrieval` `Hybrid Retrieval` `Query Rewrite` `Knowledge Base` `ETL Pipeline` `Structured Output` `JSON Schema`
 
 **AI Infra & Model Engineering**
-`PyTorch` `Transformers` `LoRA` `QLoRA` `SFT` `DPO` `DeepSpeed` `FSDP` `Distributed Training` `Mixed Precision` `Gradient Checkpointing` `vLLM` `OpenAI Compatible API` `Model Serving`
+`PyTorch` `Transformers` `LoRA` `QLoRA` `SFT` `DPO` `DeepSpeed` `FSDP` `8x H200` `Kilo-GPU Training` `Distributed Training` `Mixed Precision` `Gradient Checkpointing` `vLLM` `OpenAI Compatible API` `Model Serving`
 
 **Fullstack & DevOps**
 `React` `TypeScript` `FastAPI` `Node.js` `Three.js` `WebGL` `MySQL` `Docker` `Kafka` `Nginx` `CI/CD` `GitHub Actions`
