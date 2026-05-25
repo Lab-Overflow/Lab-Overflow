@@ -11,7 +11,7 @@
 
 <!-- Tech Stack -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,pytorch,tensorflow,sklearn,fastapi,react,threejs,nodejs,kafka&perline=11" alt="Tech Stack Row 1" />
+  <img src="https://skillicons.dev/icons?i=py,ts,bash,pytorch,tensorflow,sklearn,fastapi,react,threejs,nodejs,kafka&perline=11" alt="Tech Stack Row 1" />
   <br/>
   <img src="https://skillicons.dev/icons?i=redis,nginx,mysql,docker,kubernetes,githubactions,linux,cloudflare,workers,vscode,grafana&perline=11" alt="Tech Stack Row 2" />
 </p>
