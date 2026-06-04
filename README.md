@@ -143,14 +143,6 @@ flowchart LR
 
 ## Tech Focus
 
-**AI Agent & Multi-Agent**
-`LangChain` `LangGraph` `Dify` `MCP Protocol` `ReAct` `Function Calling` `Prompt Engineering` `Context Engineering` `Agentic Automation` `Multi-Agent Orchestration`
-
-**RAG & Intelligent Query**
-`Text2SQL` `NL2SQL` `NL2Data` `Vector Retrieval` `Hybrid Retrieval` `Query Rewrite` `Knowledge Base` `ETL Pipeline` `Structured Output` `JSON Schema`
-
-**AI Infra & Model Engineering**
-`PyTorch` `Transformers` `LoRA` `QLoRA` `SFT` `DPO` `DeepSpeed` `FSDP` `8x H200` `Kilo-GPU Training` `Distributed Training` `Mixed Precision` `Gradient Checkpointing` `vLLM` `OpenAI Compatible API` `Model Serving`
-
-**Fullstack & DevOps**
-`React` `TypeScript` `FastAPI` `Node.js` `Three.js` `WebGL` `MySQL` `Docker` `Kafka` `Nginx` `CI/CD` `GitHub Actions`
+<p align="center">
+  <img src="assets/tech-focus-ascii.svg" width="100%" alt="Tech Focus ASCII animation" />
+</p>
