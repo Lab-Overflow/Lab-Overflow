@@ -1,0 +1,1528 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="497" viewBox="0 0 1000 497" role="img" aria-label="FULLSTACK_1APE terminal profile with an ASCII rowing avatar">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d13"/>
+      <stop offset="52%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#101820"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#f2cc60"/>
+    </linearGradient>
+    <filter id="shadow" x="-8%" y="-12%" width="116%" height="126%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="boatGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#ffffff" flood-opacity="0.88"/>
+    </filter>
+    <filter id="waterGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1" flood-color="#7890a0" flood-opacity="0.4"/>
+    </filter>
+    <clipPath id="roundedCard">
+      <rect x="0.5" y="0.5" width="999" height="496" rx="18"/>
+    </clipPath>
+  </defs>
+  <style>
+    svg{font-family:"JetBrains Mono","SFMono-Regular",Menlo,Consolas,monospace;background:#05080c}
+    .vf{opacity:0;animation:vflip 3.150s linear infinite}
+    @keyframes vflip{0%{opacity:1}2.8571%{opacity:1}2.8671%{opacity:0}100%{opacity:0}}
+    .vf0{animation-delay:0.0000s}
+    .vf1{animation-delay:0.0900s}
+    .vf2{animation-delay:0.1800s}
+    .vf3{animation-delay:0.2700s}
+    .vf4{animation-delay:0.3600s}
+    .vf5{animation-delay:0.4500s}
+    .vf6{animation-delay:0.5400s}
+    .vf7{animation-delay:0.6300s}
+    .vf8{animation-delay:0.7200s}
+    .vf9{animation-delay:0.8100s}
+    .vf10{animation-delay:0.9000s}
+    .vf11{animation-delay:0.9900s}
+    .vf12{animation-delay:1.0800s}
+    .vf13{animation-delay:1.1700s}
+    .vf14{animation-delay:1.2600s}
+    .vf15{animation-delay:1.3500s}
+    .vf16{animation-delay:1.4400s}
+    .vf17{animation-delay:1.5300s}
+    .vf18{animation-delay:1.6200s}
+    .vf19{animation-delay:1.7100s}
+    .vf20{animation-delay:1.8000s}
+    .vf21{animation-delay:1.8900s}
+    .vf22{animation-delay:1.9800s}
+    .vf23{animation-delay:2.0700s}
+    .vf24{animation-delay:2.1600s}
+    .vf25{animation-delay:2.2500s}
+    .vf26{animation-delay:2.3400s}
+    .vf27{animation-delay:2.4300s}
+    .vf28{animation-delay:2.5200s}
+    .vf29{animation-delay:2.6100s}
+    .vf30{animation-delay:2.7000s}
+    .vf31{animation-delay:2.7900s}
+    .vf32{animation-delay:2.8800s}
+    .vf33{animation-delay:2.9700s}
+    .vf34{animation-delay:3.0600s}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.62}50%{opacity:1}}
+    .blink{animation:blink 1s steps(1,end) infinite}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .headline{font-size:23px;font-weight:800}
+    .status{font-size:16px;font-weight:600}
+    .rightText{font-size:18px;font-weight:700}
+    .plain{fill:#c9d1d9}
+    .dim{fill:#8b949e}
+    .green{fill:#7ee787}
+    .cyan{fill:#58a6ff}
+    .gold{fill:#f2cc60}
+    .g{fill:#6e7681}
+  </style>
+
+  <rect x="0" y="0" width="1000" height="497" fill="#05080c"/>
+  <g filter="url(#shadow)">
+    <g clip-path="url(#roundedCard)">
+      <rect x="0.5" y="0.5" width="999" height="496" rx="18" fill="url(#cardBg)"/>
+      <rect x="0" y="0" width="1000" height="44" fill="#111827"/>
+      <line x1="0" y1="44" x2="1000" y2="44" stroke="#30363d"/>
+    </g>
+    <rect x="0.5" y="0.5" width="999" height="496" rx="18" fill="none" stroke="#30363d"/>
+  </g>
+
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="22" r="6" fill="#27c93f"/>
+  <text x="88" y="27" fill="#8b949e" font-size="14" font-weight="600">author_profile --boot --solo-fullstack --ai-infra</text>
+  <text x="926" y="27" fill="#7ee787" font-size="13" font-weight="700" class="pulse">ONLINE</text>
+
+  <text x="26" y="88" font-size="23" font-weight="800" xml:space="preserve"><tspan fill="#f0f6fc">FULLSTACK_1APE </tspan><tspan fill="#6e7681">//</tspan><tspan fill="#f0f6fc"> </tspan><tspan fill="#7ee787">Member of Technical Staff</tspan><tspan fill="#6e7681">_</tspan><tspan fill="#58a6ff">AI Research Engineer</tspan></text>
+
+  <text x="28" y="123" class="status green">[OK]</text>
+  <text x="91" y="123" class="status plain">profile loaded</text>
+  <text x="290" y="123" class="status cyan">[OK]</text>
+  <text x="353" y="123" class="status plain">agent runtime</text>
+  <text x="542" y="123" class="status gold">[OK]</text>
+  <text x="605" y="123" class="status plain">gpu lane warm</text>
+
+  <rect x="37" y="142" width="300" height="300" fill="transparent"/>
+  <g class="vf vf0">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">                  -            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -   - -        </tspan>
+      <tspan x="47" dy="17.4">                      -        </tspan>
+      <tspan x="47" dy="17.4">                  -            </tspan>
+      <tspan x="47" dy="17.4">      -  -          -          </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">         ---          -    --  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">            -                  </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">          -  -                 </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+    </text>
+  </g>
+  <g class="vf vf1">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">                  -            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -   - -        </tspan>
+      <tspan x="47" dy="17.4">                      -        </tspan>
+      <tspan x="47" dy="17.4">                 --            </tspan>
+      <tspan x="47" dy="17.4">      -  -          -          </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4"> -                             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">         --           -    -   </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">            -                  </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">         -   -                 </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+    </text>
+  </g>
+  <g class="vf vf2">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">                 -             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -   -  -        </tspan>
+      <tspan x="47" dy="17.4">                      -        </tspan>
+      <tspan x="47" dy="17.4">                 -             </tspan>
+      <tspan x="47" dy="17.4">      -  -         -           </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4"> -                             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">        ---           -    -   </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">           -                   </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">         -  -                  </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">             |                 </tspan>
+      <tspan x="47" dy="17.4">             |                 </tspan>
+      <tspan x="47" dy="17.4">            |                  </tspan>
+      <tspan x="47" dy="17.4">            |                  </tspan>
+    </text>
+  </g>
+  <g class="vf vf3">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">                 -             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -   - -         </tspan>
+      <tspan x="47" dy="17.4">                     -         </tspan>
+      <tspan x="47" dy="17.4">                 -             </tspan>
+      <tspan x="47" dy="17.4">        -          -           </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4"> -                             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">        ---          -    --   </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">           -                   </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">         -  -                  </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">             /                 </tspan>
+      <tspan x="47" dy="17.4">           //                  </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+      <tspan x="47" dy="17.4">         //                    </tspan>
+      <tspan x="47" dy="17.4">        /                      </tspan>
+      <tspan x="47" dy="17.4">        /                      </tspan>
+    </text>
+  </g>
+  <g class="vf vf4">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">                 -             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -   - -         </tspan>
+      <tspan x="47" dy="17.4">                     -         </tspan>
+      <tspan x="47" dy="17.4">                --             </tspan>
+      <tspan x="47" dy="17.4">        -          -           </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">-                              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">        --           -    -    </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">           -                   </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">        -   -                  </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">    _ _ _  ———\___/            </tspan>
+      <tspan x="47" dy="17.4">        ———                    </tspan>
+      <tspan x="47" dy="17.4">      ———                      </tspan>
+      <tspan x="47" dy="17.4">     —                         </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf5">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              -   -  -         </tspan>
+      <tspan x="47" dy="17.4">                     -         </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">       --         -            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">       ---           -    -    </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">          -                    </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">        -  -                   </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">         ————(&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">   ——————     \___/            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf6">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -            -   - -          </tspan>
+      <tspan x="47" dy="17.4">                    -          </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">       -          -            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">             -                 </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">       ---          -    -     </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">          -                    </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">        -  -                   </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">   ——————————(&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf7">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">-             -   - -          </tspan>
+      <tspan x="47" dy="17.4">                    -          </tspan>
+      <tspan x="47" dy="17.4">               --              </tspan>
+      <tspan x="47" dy="17.4">       -          -            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">             -                 </tspan>
+      <tspan x="47" dy="17.4">                           -  -</tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">       --           -    -     </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">         -                     </tspan>
+      <tspan x="47" dy="17.4"> -                             </tspan>
+      <tspan x="47" dy="17.4">       -   -                   </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">            —(&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">     ———————  \___/            </tspan>
+      <tspan x="47" dy="17.4">   ——                          </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf8">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">-            -   -  -          </tspan>
+      <tspan x="47" dy="17.4">                    -          </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">      --         -             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">             -                 </tspan>
+      <tspan x="47" dy="17.4">                           -  -</tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">      ---           -   -      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">         -                     </tspan>
+      <tspan x="47" dy="17.4"> -                             </tspan>
+      <tspan x="47" dy="17.4">       -  -                    </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">     _ _ _  //\___/            </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+      <tspan x="47" dy="17.4">         //                    </tspan>
+      <tspan x="47" dy="17.4">       //                      </tspan>
+      <tspan x="47" dy="17.4">     //                        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf9">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">             -   - -           </tspan>
+      <tspan x="47" dy="17.4">                   -           </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">      -          -             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">            -                  </tspan>
+      <tspan x="47" dy="17.4">   -                       -  -</tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">      ---          -    -      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">         -                     </tspan>
+      <tspan x="47" dy="17.4"> -                             </tspan>
+      <tspan x="47" dy="17.4">       -  -                    </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">             //                </tspan>
+      <tspan x="47" dy="17.4">            /                  </tspan>
+      <tspan x="47" dy="17.4">            /                  </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+      <tspan x="47" dy="17.4">          /                    </tspan>
+    </text>
+  </g>
+  <g class="vf vf10">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">             -   - -          -</tspan>
+      <tspan x="47" dy="17.4">                   -           </tspan>
+      <tspan x="47" dy="17.4">              --               </tspan>
+      <tspan x="47" dy="17.4">      -          -             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">            -                  </tspan>
+      <tspan x="47" dy="17.4">   -                      -  - </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">      --           -    -      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">-                              </tspan>
+      <tspan x="47" dy="17.4">      -   -                    </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">             |                 </tspan>
+    </text>
+  </g>
+  <g class="vf vf11">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">              -                </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">            -   -  -          -</tspan>
+      <tspan x="47" dy="17.4">                   -           </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">     --         -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                       -  - </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">     ---           -   -       </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+    </text>
+  </g>
+  <g class="vf vf12">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">              -                </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">            -   - -           -</tspan>
+      <tspan x="47" dy="17.4">                  -            </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">     -          -              </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                       -  - </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">     ---          -    -       </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+    </text>
+  </g>
+  <g class="vf vf13">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">              -                </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">            -   - -          - </tspan>
+      <tspan x="47" dy="17.4">                  -            </tspan>
+      <tspan x="47" dy="17.4">             --                </tspan>
+      <tspan x="47" dy="17.4">     -          -              </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                      -  -  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">     --           -    -       </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">                  -            </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+    </text>
+  </g>
+  <g class="vf vf14">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">             -                 </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">           -   -  -          - </tspan>
+      <tspan x="47" dy="17.4">                  -            </tspan>
+      <tspan x="47" dy="17.4">             -                 </tspan>
+      <tspan x="47" dy="17.4">    --         -               </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -                       -  -  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">    ---           -   -        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">                 -             </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">              /                </tspan>
+      <tspan x="47" dy="17.4">             /                 </tspan>
+      <tspan x="47" dy="17.4">            /                  </tspan>
+      <tspan x="47" dy="17.4">            /                  </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+    </text>
+  </g>
+  <g class="vf vf15">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">             -                 </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">           -   - -           - </tspan>
+      <tspan x="47" dy="17.4">                 -             </tspan>
+      <tspan x="47" dy="17.4">             -                 </tspan>
+      <tspan x="47" dy="17.4">    -          -               </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -                       -  -  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">    --           -    -        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">                 -             </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">    _ _ _    /\___/            </tspan>
+      <tspan x="47" dy="17.4">            //                 </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+      <tspan x="47" dy="17.4">         //                    </tspan>
+      <tspan x="47" dy="17.4">        //                     </tspan>
+      <tspan x="47" dy="17.4">       /                       </tspan>
+    </text>
+  </g>
+  <g class="vf vf16">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">             -                 </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">           -   - -          -  </tspan>
+      <tspan x="47" dy="17.4">                 -             </tspan>
+      <tspan x="47" dy="17.4">            -                  </tspan>
+      <tspan x="47" dy="17.4">    -         -                </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -                      -  -   </tspan>
+      <tspan x="47" dy="17.4">          -                    </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">    -            -    -        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+      <tspan x="47" dy="17.4">                 -             </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">    _ _ _ ————\___/            </tspan>
+      <tspan x="47" dy="17.4">      ————                     </tspan>
+      <tspan x="47" dy="17.4">    ——                         </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf17">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">            -                  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">          -   - -           -  </tspan>
+      <tspan x="47" dy="17.4">                 -             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">   --         -                </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">-                       -  -   </tspan>
+      <tspan x="47" dy="17.4">          -                    </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">   --            -             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">   ——————————(&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf18">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">       -    -                  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">          -   - -           -  </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">-                      --  -   </tspan>
+      <tspan x="47" dy="17.4">         -                     </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">   --                          </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">   ——————————(&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf19">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">       -    -                  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">          -     -          -   </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                      --       </tspan>
+      <tspan x="47" dy="17.4">         -                     </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">     _ _ ———— \___/            </tspan>
+      <tspan x="47" dy="17.4">    —————                      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf20">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">      -    -                   </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">         -     -           -   </tspan>
+      <tspan x="47" dy="17.4">                -              </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                      --      -</tspan>
+      <tspan x="47" dy="17.4">         -                     </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">  --                           </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">     _ _ _   /\___/            </tspan>
+      <tspan x="47" dy="17.4">            //                 </tspan>
+      <tspan x="47" dy="17.4">          //                   </tspan>
+      <tspan x="47" dy="17.4">        //                     </tspan>
+      <tspan x="47" dy="17.4">        /                      </tspan>
+      <tspan x="47" dy="17.4">       /                       </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf21">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">      -    -                   </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                           -   </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                      --      -</tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">  --                           </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">              /                </tspan>
+      <tspan x="47" dy="17.4">             /                 </tspan>
+      <tspan x="47" dy="17.4">            /                  </tspan>
+      <tspan x="47" dy="17.4">            /                  </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+    </text>
+  </g>
+  <g class="vf vf22">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">      -    -                   </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">                     --       -</tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">             -               - </tspan>
+      <tspan x="47" dy="17.4"> --                            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+    </text>
+  </g>
+  <g class="vf vf23">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">     -    -                    </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">               -               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">                     --      - </tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">             -               - </tspan>
+      <tspan x="47" dy="17.4"> --                            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+    </text>
+  </g>
+  <g class="vf vf24">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">     -    -                    </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">                     -       - </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">             -              -  </tspan>
+      <tspan x="47" dy="17.4"> --                            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+    </text>
+  </g>
+  <g class="vf vf25">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">     -    -                    </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                         - -   </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">                    -        - </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">            -               -  </tspan>
+      <tspan x="47" dy="17.4">--                             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              -                </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">             |                 </tspan>
+      <tspan x="47" dy="17.4">             |                 </tspan>
+    </text>
+  </g>
+  <g class="vf vf26">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">    -    -                     </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -                             </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+      <tspan x="47" dy="17.4">                    -       -  </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">            -               -  </tspan>
+      <tspan x="47" dy="17.4">--                             </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">             -                 </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">     _ _ _    \___/            </tspan>
+      <tspan x="47" dy="17.4">             //                </tspan>
+      <tspan x="47" dy="17.4">             /                 </tspan>
+      <tspan x="47" dy="17.4">            /                  </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+      <tspan x="47" dy="17.4">          //                   </tspan>
+      <tspan x="47" dy="17.4">          /                    </tspan>
+    </text>
+  </g>
+  <g class="vf vf27">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">    -    -                     </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -                             </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">                    -       -  </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+      <tspan x="47" dy="17.4">            -              -   </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">         -                     </tspan>
+      <tspan x="47" dy="17.4">             -                 </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">    _ _ _   //\___/            </tspan>
+      <tspan x="47" dy="17.4">           /                   </tspan>
+      <tspan x="47" dy="17.4">         //                    </tspan>
+      <tspan x="47" dy="17.4">       //                      </tspan>
+      <tspan x="47" dy="17.4">      /                        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf28">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">    -    -                     </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">-                              </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">                   -        -  </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+      <tspan x="47" dy="17.4">           -               -   </tspan>
+      <tspan x="47" dy="17.4">                              -</tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                           -   </tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">             -                 </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">    _ _—————— \___/            </tspan>
+      <tspan x="47" dy="17.4">    ———                        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf29">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">   -    -                      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                  -      -     </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">-                              </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+      <tspan x="47" dy="17.4">                   -       -   </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+      <tspan x="47" dy="17.4">           -               -   </tspan>
+      <tspan x="47" dy="17.4">                              -</tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                           -   </tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">            -                  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">   ——————————(&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf30">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">   -    -                      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                 -       -     </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -   -                         </tspan>
+      <tspan x="47" dy="17.4">                   -       -   </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+      <tspan x="47" dy="17.4">          -               -    </tspan>
+      <tspan x="47" dy="17.4">                             --</tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">        -                      </tspan>
+      <tspan x="47" dy="17.4">            -                  </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">        —————(&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">   ————— _    \___/            </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf31">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">   -    -                      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                 -       -     </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -   -                         </tspan>
+      <tspan x="47" dy="17.4">                  -        -   </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+      <tspan x="47" dy="17.4">          -               -    </tspan>
+      <tspan x="47" dy="17.4">                             - </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">            -                  </tspan>
+      <tspan x="47" dy="17.4">   -                           </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">     _ _ _ ———\___/            </tspan>
+      <tspan x="47" dy="17.4">        ———                    </tspan>
+      <tspan x="47" dy="17.4">      ——                       </tspan>
+      <tspan x="47" dy="17.4">     —                         </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+    </text>
+  </g>
+  <g class="vf vf32">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">  -    -                       </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                 -      -      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4"> -  -                          </tspan>
+      <tspan x="47" dy="17.4">                  -       -    </tspan>
+      <tspan x="47" dy="17.4">     -                         </tspan>
+      <tspan x="47" dy="17.4">          -               -    </tspan>
+      <tspan x="47" dy="17.4">                             - </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                          -    </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">           -                   </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o,               </tspan>
+      <tspan x="47" dy="17.4">             (&lt;/)              </tspan>
+      <tspan x="47" dy="17.4">     _ _ _   /\___/            </tspan>
+      <tspan x="47" dy="17.4">             /                 </tspan>
+      <tspan x="47" dy="17.4">           //                  </tspan>
+      <tspan x="47" dy="17.4">          /                    </tspan>
+      <tspan x="47" dy="17.4">         //                    </tspan>
+      <tspan x="47" dy="17.4">        /                      </tspan>
+      <tspan x="47" dy="17.4">       /                       </tspan>
+    </text>
+  </g>
+  <g class="vf vf33">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">  -    -                       </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -       -      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">-   -                          </tspan>
+      <tspan x="47" dy="17.4">                  -       -    </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">         -               -     </tspan>
+      <tspan x="47" dy="17.4">                            -- </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                         -     </tspan>
+      <tspan x="47" dy="17.4">       -                       </tspan>
+      <tspan x="47" dy="17.4">           -                   </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">             |                 </tspan>
+      <tspan x="47" dy="17.4">            ||                 </tspan>
+      <tspan x="47" dy="17.4">            |                  </tspan>
+      <tspan x="47" dy="17.4">            |                  </tspan>
+    </text>
+  </g>
+  <g class="vf vf34">
+    <text class="avatarText waterText" fill="#586272" filter="url(#waterGlow)" x="47" y="160" font-size="15" font-weight="600" xml:space="preserve">
+      <tspan x="47" dy="0">  -   -                        </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                -       -      </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">                 -        -    </tspan>
+      <tspan x="47" dy="17.4">    -                          </tspan>
+      <tspan x="47" dy="17.4">         -               -     </tspan>
+      <tspan x="47" dy="17.4">                            -  </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                         -     </tspan>
+      <tspan x="47" dy="17.4">      -                        </tspan>
+      <tspan x="47" dy="17.4">           -           -       </tspan>
+      <tspan x="47" dy="17.4">  -                            </tspan>
+    </text>
+    <text class="avatarText boatText" fill="#ffffff" filter="url(#boatGlow)" x="47" y="160" font-size="15" font-weight="760" xml:space="preserve">
+      <tspan x="47" dy="0">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">                               </tspan>
+      <tspan x="47" dy="17.4">              o                </tspan>
+      <tspan x="47" dy="17.4">             (_⊥_)             </tspan>
+      <tspan x="47" dy="17.4">    _ _ _     \___/            </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">               |               </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+      <tspan x="47" dy="17.4">              |                </tspan>
+    </text>
+  </g>
+
+  <text x="26" y="466" fill="#6e7681" font-size="14" font-weight="600">&gt; ships while you sleep</text>
+
+  <text x="374" y="163" class="rightText cyan">$ whoami</text>
+  <text x="374" y="190" font-size="18" font-weight="700" xml:space="preserve"><tspan fill="#7ee787">&gt; </tspan><tspan fill="#c9d1d9">one ape · full stack · ships 0-&gt;1, solo</tspan></text>
+  <text x="374" y="217" font-size="18" font-weight="700" xml:space="preserve"><tspan fill="#7ee787">&gt; </tspan><tspan fill="#c9d1d9">web power-user · HarmonyOS dev · AI-infra builder</tspan></text>
+  <text x="374" y="244" class="rightText gold">&gt; the harder it gets, the sharper i get</text>
+
+  <rect x="374" y="264" width="600" height="2" fill="url(#rail)" opacity="0.9"/>
+
+  <text x="374" y="294" class="rightText cyan">$ ls ~/shipped --live</text>
+  <text x="374" y="324" class="plain rightText">ai-health-platform</text>
+    <text x="600" y="324" class="rightText" fill="#7ee787">[LIVE]</text>
+    <text x="715" y="324" class="dim rightText">0-&gt;1 solo, in prod</text>
+  <text x="374" y="351" class="plain rightText">prompt-optimizer</text>
+    <text x="600" y="351" class="rightText" fill="#58a6ff">[ OSS]</text>
+    <text x="715" y="351" class="dim rightText">open-source toolkit</text>
+  <text x="374" y="378" class="plain rightText">llm-training-stack</text>
+    <text x="600" y="378" class="rightText" fill="#f2cc60">[8xH200]</text>
+    <text x="715" y="378" class="dim rightText">distributed + vLLM</text>
+
+  <text x="374" y="412" font-size="18" font-weight="700" xml:space="preserve"><tspan fill="#58a6ff">$ </tspan><tspan fill="#7ee787" class="blink">_</tspan></text>
+</svg>
