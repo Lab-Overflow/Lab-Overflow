@@ -144,5 +144,5 @@ flowchart LR
 ## Tech Focus
 
 <p align="center">
-  <img src="assets/tech-focus-ascii.svg" width="100%" alt="Tech Focus ASCII animation" />
+  <img src="assets/profile-rower-terminal.svg" width="100%" alt="Tech Focus ASCII animation" />
 </p>
